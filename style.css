@@ -1,0 +1,256 @@
+
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			text-decoration: none;
+			list-style: none;
+	
+}
+
+	
+
+
+body{
+      font-family: Arial, sans-serif;
+      background: #030101ea;
+      margin: 0;
+      padding: 20px;
+    
+      justify-content: center;
+    }
+
+		header{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+			transition: 0.7s;
+			padding: 30px 20px;
+			z-index: 10;
+			
+		}
+		
+
+		
+		header.abajo{
+			background: #060744;
+			padding: 15px 20px;
+		}
+
+		nav{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+		}
+
+		header ul{
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+		}
+
+		header ul li{
+			list-style: none;
+			display: inline-block;
+			line-height: 80px;
+			margin: 0 5px;
+
+
+
+		}
+
+		header ul li a{
+			position: relative;
+			font-family: helvetica;
+			margin: 0 15px;
+			text-decoration: none;
+			color: #fffffff6;
+			letter-spacing: 2px;
+			font-weight: 600;
+			transition: 0.7s;
+
+
+
+		}
+        	
+		header.abajo ul li a{
+			color: #e1e423;
+		}
+
+        .contenedor{
+			position: relative;
+			
+			background-size: 100% 100%;
+			background-position: center center;
+		  height: calc(130vh - 100px);
+		  border-radius: 7px;
+
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  flex-direction: column;
+ 		  box-shadow: 0px 20px 20px 10px 
+ 		  rgba(243, 27, 27, 0.088);
+ 		  animation: animate 10s 
+ 		  linear infinite;
+
+
+
+	}
+
+@keyframes animate{
+	0%{
+		background-image: url(tipo1.jpg);
+	}
+	25%{
+		background-image: url(logo5.jpg);
+	}
+	50%{
+		background-image: url(logo3.jpg);
+	}
+	100%{
+		background-image: url(logo4.jpg);
+
+	}
+}
+.kinetic1-text{
+	width: 90ch;
+	font-family: monospace;
+	text-wrap: nowrap;
+	overflow: hidden;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 2em;
+	letter-spacing: 10px;
+	text-shadow: 0 0 10px cyan,
+	0 0 20px cyan,
+	0 0 40px cyan,
+	0 0 80px cyan;
+	animation: typing 2s steps(20) infinite
+	alternate-reverse;
+}
+@keyframes typing{
+	from{
+		width: 0ch;
+	}
+}
+
+.container {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 50px;
+       }
+
+    .card {
+      background: #0c447c; 
+      color: white;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+
+    }
+	.card h2{
+ 	font-size: 2rem;
+	font-weight: 600;
+	background: linear-gradient( 90deg,  #e9f72b,  #20e719);
+	-webkit-backgrentound-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+    .icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+
+.container ul li{
+		position: relative;
+			font-family: helvetica;
+			margin: 0 15px;
+			text-decoration: none;
+			color: #fffffff6;
+			letter-spacing: 2px;
+			font-weight: 600;
+			transition: 0.7s;
+
+}
+
+    .enlace a {
+      display: block;
+      background: #901cf0;
+      color: white;
+      text-decoration: none;
+      margin: 12px auto;
+      padding: 20px;
+      width: 260px;
+      border-radius: 10px;
+      font-size: 20px;
+      transition: background 0.3s;
+    }
+    .enlace a:hover {
+     background;#388E3C;
+	}
+	.contet{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50vh;
+	}
+	.card1  img{
+		width: 300px;
+		border-radius: 10px;
+		-webkit-box-reflect: below 2.px
+		linear-gradiend
+		( transparent, transparent, rgba( 3,3,3,0,2));
+
+		
+	}
+	.card1{
+		transition: 0.5s ease;
+		cursor: pointer;
+	}
+	.contet:hover > :not( :hover){
+		opacity: 0.3;
+
+	}
+	.card1:hover{
+		transform: scale(1.1);
+		filter: grayscale(0%);
+	}
+footer{
+
+  background:#222;
+ color:#fff;
+  padding:20px;
+   text-align:center;
+ }
+
+{
+  color:#25D366;
+ margin:10 20px;
+  text-decoration:none;
+   font-size:30px;
+ }
+
+
+ {
+  color:#1877F2;
+   margin:0 10px;
+    text-decoration:none;
+     font-size:20px;
+ }
+
+ {
+  margin-top:30px;
+   font-size:20px;
+   
+}
+  
